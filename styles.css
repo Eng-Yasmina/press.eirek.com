@@ -324,6 +324,28 @@ p {
 }
 }
 
+/* Nav_Linked_main */
+.nav__linked__main {
+    top: 20%;
+    background-color:var(--btn-color);
+    border-top-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    left: 0;
+    position: fixed;
+    transition: var(--transition);
+    z-index: 9999;
+    writing-mode: vertical-lr;
+    justify-content: space-between;
+}
+.nav__linked__main a{
+    color: var(--color-lang);
+    font-weight: 500;
+    display: inline-block;
+    transition: var(--transition);
+    padding: 1.5em;
+    cursor: pointer;
+}
+
 /* Language */ 
 div.pkp_block.block_language {
     top: 20%;
