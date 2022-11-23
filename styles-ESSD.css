@@ -731,7 +731,7 @@ div.pkp_block.block_language .locale_ar_IQ a:hover {
 .pkp_structure_footer_wrapper {
     background: var(--footer--bg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 .pkp_structure_footer_wrapper img{
     width: 60%;
@@ -741,7 +741,7 @@ div.pkp_block.block_language .locale_ar_IQ a:hover {
     .pkp_structure_footer_wrapper {
         background: var(--footer-m-820);
         background-position: center;
-        background-size: cover;
+        background-size: contain;
     }
 }
 @media(max-width:540px){
@@ -775,13 +775,13 @@ div.pkp_block.block_language .locale_ar_IQ a:hover {
 }
 @media(max-width:1180px){
     .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]) {
-        background: url(./images/ESSD-bg-medium-1180.png) no-repeat;
+        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-medium-1180.png) no-repeat;
         transform: translateX(-8.1em);
     }
 }
 @media(max-width:1024px){
     .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]) {
-        background: url(./images/ESSD-bg-medium.png) no-repeat;
+        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-medium.png) no-repeat;
         transform: translateX(-2.5em);
         height: 100vh;
     }
@@ -805,7 +805,7 @@ div.pkp_block.block_language .locale_ar_IQ a:hover {
 }
 @media(max-width:720px){
     .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]) {
-        background: url(./images/ESSD-bg-s-1.png) no-repeat;
+        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-s-1.png) no-repeat;
         transform: translateX(-4em);
         height: 50vh;
     }
@@ -2428,3 +2428,21 @@ a#editor-email {
     color: #081657;
 }
 
+.social-media {
+    top: 10em;
+    justify-content: center;
+    gap: 1em;
+    display: flex;
+    bottom: 0;
+    position: relative;
+}
+img.social-icon {
+    width: 2em;
+    visibility: visible;
+}
+.social-link {
+    transition: var(--transition);
+}
+.social-link:hover {
+    transform: scale(1.1);
+}
