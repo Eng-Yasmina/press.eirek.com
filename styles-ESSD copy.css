@@ -307,7 +307,6 @@ p {
     margin-right: 10em;
 }
 .pkp_navigation_user.pkp_navigation_user {
-    margin-top: 8rem;
     border-top: none;
 }
 /* hamburger for all pages*/
@@ -417,14 +416,6 @@ p {
 }
 
 /* Language */ 
-.pkp_page_index .pkp_structure_sidebar.left, body.pkp_page_Home .pkp_structure_sidebar.left {
-    height: 600px;
-}
-@media(max-width:912px){
-    .pkp_page_index .pkp_structure_sidebar.left, body.pkp_page_Home .pkp_structure_sidebar.left {
-        height: 10px;
-    }
-}
 body.pkp_page_Home div.pkp_block.block_language {
     display: none;
 }
@@ -782,7 +773,7 @@ div.pkp_block.block_language .locale_ar_IQ a:hover {
 .pkp_structure_footer_wrapper {
     background: var(--footer--bg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 .pkp_structure_footer_wrapper img{
     width: 60%;
@@ -792,7 +783,7 @@ div.pkp_block.block_language .locale_ar_IQ a:hover {
     .pkp_structure_footer_wrapper {
         background: var(--footer-m-820);
         background-position: center;
-        background-size: contain;
+        background-size: cover;
     }
 }
 @media(max-width:540px){
@@ -902,7 +893,6 @@ body.pkp_page_Home.pkp_op_index .pkp_head_wrapper {
 }
 body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
     z-index: 9;
-    margin-top: 4rem;
 }
 .pkp_page_issue .pkp_head_wrapper, .pkp_op_archive .pkp_head_wrapper, .pkp_page_about .pkp_head_wrapper, .pkp_page_special-issue-request .pkp_head_wrapper, .pkp_page_login .pkp_head_wrapper, .pkp_op_register .pkp_head_wrapper, .pkp_page_search .pkp_head_wrapper, .pkp_page_editorial-team .pkp_head_wrapper {
     z-index: 9;
@@ -927,10 +917,7 @@ body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
     transition: var(--transition);
     
 }
-.pkp_page_index .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_index .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a{
-display: none; 
-    
-}
+
 .pkp_page_issue .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_issue .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_op_archive .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_op_archive .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_about .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_about .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_special-issue-request .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_special-issue-request .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_login .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_login .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_op_register .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_op_register .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_search .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_search .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_editorial-team .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_editorial-team .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited,
 .pkp_page_issue .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_issue .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_op_archive .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_op_archive .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_about .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_about .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_special-issue-request .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_special-issue-request .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_login .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_login .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_op_register .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_op_register .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_search .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_search .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_editorial-team .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_editorial-team .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited{
     background-color: var(--btn-color);
@@ -1413,7 +1400,7 @@ body.pkp_page_issue .obj_issue_toc .articles {
 @media(max-width:820px) {
     .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/3/homepageImage_en_US.png"]) {
         background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/Resourceedings-bg-s-1.png) no-repeat;
-        transform: translateX(-3em);
+        transform: scaleX(1.05);
         height: 70vh;
     }
 }
@@ -1938,7 +1925,7 @@ justify-content: center;
     padding-left: 0.5em;
     margin-left: -0.5em;
 }
-.pkp_structure_main .page_issue_archive .issues_archive li{
+.pkp_structure_main .page_issue_archive .issues_archive>li{
     flex: 0 1 2em;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(1 1 1 /35%);
@@ -1955,19 +1942,19 @@ justify-content: center;
     font-size: 0.7em;
 }
 
-.pkp_structure_main .page_issue_archive .issues_archive li:nth-child(even){
+.pkp_structure_main .page_issue_archive .issues_archive>li:nth-child(even){
     background-color: #e9ebf7;
     color: #0f1031;
 }
 .pkp_structure_main .page_issue_archive .issues_archive li:nth-child(odd) a, .pkp_structure_main .page_issue_archive .issues_archive li:nth-child(odd) .series{
     color: #f0f0f0;
 }
-.pkp_structure_main .page_issue_archive .issues_archive li:nth-child(odd){
+.pkp_structure_main .page_issue_archive .issues_archive>li:nth-child(odd){
     background-color: var(--btn-color);
     color: #f0f0f0;
 }
 
-.pkp_structure_main .page_issue_archive .issues_archive li:hover {
+.pkp_structure_main .page_issue_archive .issues_archive>li:hover {
     transform: scale(1.01);
     box-shadow: 0 5px 15px rgba(1 1 1 /40%);
 }

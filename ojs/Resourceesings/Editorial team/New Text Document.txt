@@ -1,0 +1,50 @@
+<section id="Reviews" class="grid reviews" data-navigation="Reviews">
+<article class="reviews__container">
+<div class="person"><!-- this img is my visual-identity :) --> <img src="https://press.ierek.com/public/site/profileImage-1.png" alt="Professor Hocine Bougdah" /></div>
+<div class="student__info">
+<h2 class="student__name">Professor Hocine Bougdah</h2>
+<p class="student__job">Editor in Chief</p>
+</div>
+<div class="review"><q> <em>Dr Bougdah is a Senior Research Fellow in the School of Architecture and Cities at the University of Westminster, London, UK. Both his research teaching interests are focused on the technological, ecological and human aspects of architectural design. His approach to “Technology” is to use it as a design generator/enabler rather than an “add-on” technical resolution to a design proposal. His research interests cover topics such as sustainable design, innovative low tech/low energy/low impact buildings, spatial experience of users and issues of culture, urbanisation and globalisation. Alongside his academic role, he runs a design/consultancy practice. He is a member of a number of learned societies/professional bodies including the Royal Society for the Arts (RSA), the Association for Computer Aided Design In Architecture (ACADIA), World Society of Sustainable Energy Technologies, (WSSET) the Institute of Acoustics (IOA) and the UK Higher Education Academy (HEA). <br />Email: <a id="editor-email" href="mailto:hocine.bougdah@ierek.com" target="_top">hocine.bougdah@ierek.com</a></em> </q></div>
+</article>
+<article class="reviews__container">
+<div class="person"><!-- this img is my visual-identity :) --> <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG26Afb7rmVcg/profile-displayphoto-shrink_100_100/0/1622028340575?e=1674691200&amp;v=beta&amp;t=-_Y_Oj1BaEL3jQbecsUJCU_Qk5BiimUMITuRpsHpdvU" alt="Doctor Mourad Amer" /></div>
+<div class="student__info">
+<h2 class="student__name">Doctor Mourad Amer</h2>
+<p class="student__job">Managing Editor</p>
+</div>
+<div class="review"><q> <em>Dr Mourad Amer Architect, BSc, DSc, MSc, PhD Founder and CEO of IEREK Editor of ASTI, a book series by Springer Editor at IEREK Press , Egypt <br />Linkedin: <a id="editor-email" href="https://www.linkedin.com/in/mourad-amer-77557687/" target="_blank" rel="noopener">linkedin.com/in/mourad-amer-77557687</a></em> </q></div>
+</article>
+<article class="reviews__container">
+<div class="person"><!-- this img is my visual-identity :) --> <img src="https://i1.rgstatic.net/ii/profile.image/788760971206657-1565066678170_Q512/Fabio-Naselli.jpg" alt="Dr. Fabio Naselli" /></div>
+<div class="student__info">
+<h2 class="student__name">Dr. Fabio Naselli</h2>
+<p class="student__job">Editor</p>
+</div>
+<div class="review"><q> <em>full-time Senior Lecturer in urban planning and design at the Architecture Department of Epoka University, Tirana. <br />Email: <a id="editor-email" href="mailto:fnaselli@epoka.edu.al" target="_top">fnaselli@epoka.edu.al</a></em> </q></div>
+</article>
+<article class="reviews__container">
+<div class="person"><!-- this img is my visual-identity :) --> <img src="https://i1.rgstatic.net/ii/profile.image/514797244747776-1499748635961_Q512/Hasim-Altan.jpg" alt="Professor Hasim Altan" /></div>
+<div class="student__info">
+<h2 class="student__name">Professor Hasim Altan</h2>
+<p class="student__job">Editor</p>
+</div>
+<div class="review"><q> <em>Full Professor of Sustainable Design and Architectural Engineering - Faculty of Design, at Arkin University of Creative Arts and Design (ARUCAD) in Kyrenia, Cyprus. <br />Email: <a id="editor-email" href="mailto:hasim.altan@arucad.edu.tr" target="_top">hasim.altan@arucad.edu.tr</a></em> </q></div>
+</article>
+<article class="reviews__container">
+<div class="person"><!-- this img is my visual-identity :) --> <img src="https://media-exp1.licdn.com/dms/image/C5603AQG2Zw5cjsOU9w/profile-displayphoto-shrink_200_200/0/1517531740869?e=1674691200&amp;v=beta&amp;t=kh-DHD0msffIiU4UYN1iuDBGEFWB75Tgd0YCd7XAxnA" alt="Professor Cristina Piselli" /></div>
+<div class="student__info">
+<h2 class="student__name">Professor Cristina Piselli</h2>
+<p class="student__job">Editor</p>
+</div>
+<div class="review"><q> <em>Assistant professor at the Department of Architecture (DIDA), University of Florence, Italy. <br />Linkedin: <a id="editor-email" href="https://www.linkedin.com/in/cristina-piselli-46154ab0/" target="_blank" rel="noopener">linkedin.com/in/cristina-piselli-46154ab0</a></em> </q></div>
+</article>
+<article class="reviews__container">
+<div class="person"><!-- this img is my visual-identity :) --> <img src="https://pbs.twimg.com/profile_images/1512186540973252615/Ix3I3qcp_400x400.jpg" alt="Professor Hocine Bougdah" /></div>
+<div class="student__info">
+<h2 class="student__name">Dr. Chaham Alaloush</h2>
+<p class="student__job">Editor</p>
+</div>
+<div class="review"><q> <em>an academic, scholar, Chief Editor, and architectural engineer with a background in urbanism. <br />Linkedin: <a id="editor-email" href="https://www.linkedin.com/in/chaham-alalouch-940942b4/" target="_blank" rel="noopener">linkedin.com/in/chaham-alalouch-940942b4</a></em> </q></div>
+</article>
+</section>
