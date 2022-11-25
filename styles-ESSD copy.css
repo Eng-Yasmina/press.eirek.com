@@ -1340,7 +1340,7 @@ body.pkp_page_issue .obj_issue_toc .articles {
 }
 @media (max-width:768px){
     .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/2/homepageImage_en_US.png"]){
-        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ARChive-bg.png) no-repeat;
+        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ARChive-bg-blue-s.png) no-repeat;
         transform: scale(1.05);
     }
     .pkp_page_index .additional_content .container{
