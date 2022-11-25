@@ -178,6 +178,7 @@ p {
     background: var(--btn-color);
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin-left: 1em;
 }
 
 /* Header logo */ 
@@ -283,6 +284,10 @@ p {
 }
 .has_site_logo .pkp_navigation_user.pkp_navigation_user {
     margin-right: 10em;
+}
+.pkp_navigation_user.pkp_navigation_user {
+    margin-top: 8rem;
+    border-top: none;
 }
 /* hamburger for all pages*/
 .pkp_site_nav_menu--isOpen{
@@ -778,9 +783,18 @@ div.pkp_block.block_language .locale_ar_IQ a:hover {
         background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-medium-1180.png) no-repeat;
         transform: translateX(-8.1em);
     }
+    .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]):hover {
+        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-medium-1180.png) no-repeat;
+        transform: translateX(-8.1em);
+    }
 }
 @media(max-width:1024px){
     .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]) {
+        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-medium.png) no-repeat;
+        transform: translateX(-2.5em);
+        height: 100vh;
+    }
+    .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]):hover {
         background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-medium.png) no-repeat;
         transform: translateX(-2.5em);
         height: 100vh;
@@ -806,13 +820,13 @@ div.pkp_block.block_language .locale_ar_IQ a:hover {
 @media(max-width:720px){
     .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]) {
         background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-s-1.png) no-repeat;
-        transform: translateX(-4em);
+        transform: scale(1.05);
         height: 50vh;
     }
-}
-@media(max-width:412px){
-    .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]) {
-        transform: translateX(0em);
+    .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/1/homepageImage_en_US.png"]):hover {
+        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ESSD-bg-s-1.png) no-repeat;
+        transform: scale(1.05);
+        height: 50vh;
     }
 }
 
@@ -928,23 +942,25 @@ display: none;
 
 
 /*-- current card ----*/
-.obj_issue_toc .heading{
-    background: var(--card-bg-color);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    border-top-left-radius: 3.5em;
-    border-bottom-right-radius: 3.5em;
-    transform: translateX(-10vw);
-    color: #ECEEF6;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    padding: 6vw ; 
-    flex: 0 1 21em;
-    flex-wrap: wrap;
+.obj_issue_toc .heading {
+        position: relative;
+        background: var(--card-bg-color);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        border-radius: 20px;
+        color: #ECEEF6;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 25px 50px 25px;
+        flex: 0 1 21em;
+        flex-wrap: wrap;
+        box-shadow: 0 5px 45px rgb(1 1 1 / 35%);
 }
+
+
 .obj_issue_toc .heading a {
     color: #ECEEF6;
 }
@@ -954,6 +970,18 @@ display: none;
     margin-top: 2em;
     font-size: 1em;
     font-weight: 600;
+}
+@media(max-width:540px) {
+    .obj_issue_toc .heading {
+        padding: 25px 14px 50px 15px;
+
+}
+    .obj_issue_toc .description {
+        color: var(--pargraph-color);
+        margin-top: 0;
+        font-size: 0.6em;
+        font-weight: 800;
+    }
 }
 
 /*-- current card image block --*/
@@ -978,7 +1006,7 @@ display: none;
     background: var(--card-published-bg);
     position: absolute;
     top: 0;
-    left: 9.5em;
+    left: 5em;
     padding: 2em 3em;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
@@ -1001,7 +1029,13 @@ display: none;
 }
 @media(max-width:540px) {
     .obj_issue_toc .published {
-        left: 1em;
+        left: 25%;
+        position: absolute;
+        border-top-right-radius: 1em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 0.2em;
+        border-top-left-radius: 0.2em;
+        top: 97.5%;
         padding: 1em;
         font-size: 0.9em;
     }
@@ -1013,7 +1047,6 @@ display: none;
     font-weight: 500;
     border-left:3px solid #3a6cf4;
     padding-left: 0.5em;
-    margin-left: -0.5em;
 }
 
 /*-- Topics--*/
@@ -1174,6 +1207,7 @@ body.pkp_page_issue .obj_issue_toc .articles {
     .pkp_page_index .current_issue .read_more {
         font-size: 1em;
         margin-top: 2em;
+        left: 30%;
     }
 }
 .pkp_page_index .current_issue .read_more:hover {
@@ -1357,12 +1391,7 @@ body.pkp_page_issue .obj_issue_toc .articles {
 }
 @media(max-width:540px) {
     .pkp_page_index .ISSN {
-        font-size: 1em;
-    }
-}
-@media(max-width:414px) {
-    .pkp_page_index .ISSN {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 }
 .pkp_page_index .ISSN .online-issn{
@@ -1391,6 +1420,7 @@ body.pkp_page_issue .obj_issue_toc .articles {
     }
 
 .pkp_page_index .indexing-services__content {
+    transform: translateX(30px);
     margin-top: 5em;
     display: flex;
     justify-content: center;
@@ -1426,7 +1456,7 @@ body.pkp_page_issue .obj_issue_toc .articles {
 
 @media(max-width:912px) {
 .pkp_page_index .additional_content .custom-nav-bar{
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
 }
 .window-scroll{
@@ -1990,6 +2020,13 @@ justify-content: space-between;
 
 }
 
+@media(max-width:540px) {
+    .pkp_page_special-issue-request .app-input-data {
+        width: 120%;
+        padding: 2em;
+    }
+}
+
 .pkp_page_special-issue-request .form {
     width: 100%;
     position: relative;
@@ -2134,7 +2171,7 @@ justify-content: space-between;
     }
     @media(max-width:912px) {
         .grid {
-            transform: scale(0.5);
+            transform: translateX(2.4em) scale(0.44);
         }
         }
 .team {
@@ -2143,7 +2180,7 @@ justify-content: space-between;
 
 h1#team_title {
     position: absolute;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .team__bold-title {
