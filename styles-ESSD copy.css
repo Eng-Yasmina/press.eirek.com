@@ -1007,7 +1007,7 @@ body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
 }
 @media(max-width:540px) {
     .obj_issue_toc .heading {
-        padding: 25px 14px 50px 15px;
+        padding: 50px 14px 15px 15px;
         border-radius: 20px;
 
 }
@@ -1064,15 +1064,13 @@ body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
 }
 @media(max-width:540px) {
     .obj_issue_toc .published {
-        left: 25%;
         position: absolute;
         border-top-right-radius: 1em;
         border-top-left-radius: 1em;
         border-top-right-radius: 0.2em;
         border-top-left-radius: 0.2em;
-        top: 97.5%;
         padding: 1em;
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
 }
 
@@ -1342,7 +1340,8 @@ body.pkp_page_issue .obj_issue_toc .articles {
 }
 @media (max-width:768px){
     .pkp_page_index .homepage_image:has(img[src*="https://press.ierek.com/public/journals/2/homepageImage_en_US.png"]){
-        transform: translateX(0em);
+        background: url(https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/ARChive-bg.png) no-repeat;
+        transform: scale(1.05);
     }
     .pkp_page_index .additional_content .container{
         padding: 1em;
