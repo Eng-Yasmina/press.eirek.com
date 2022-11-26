@@ -920,26 +920,13 @@ body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
 
 .pkp_page_issue .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_issue .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_op_archive .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_op_archive .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_about .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_about .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_special-issue-request .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_special-issue-request .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_login .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_login .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_op_register .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_op_register .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_search .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_search .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited, .pkp_page_editorial-team .pkp_navigation_primary.pkp_nav_list>li:first-child a, .pkp_page_editorial-team .pkp_navigation_primary.pkp_nav_list>li:first-child a:visited,
 .pkp_page_issue .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_issue .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_op_archive .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_op_archive .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_about .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_about .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_special-issue-request .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_special-issue-request .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_login .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_login .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_op_register .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_op_register .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_search .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_search .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited, .pkp_page_editorial-team .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a, .pkp_page_editorial-team .pkp_navigation_primary.pkp_nav_list>li:nth-child(2) a:visited{
-    background-color: var(--btn-color);
-    color: #ffff;
     padding: 0.9em;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
     display: inline-block;
     transition: var(--transition);
     text-align: center;
     
 }
-.pkp_site_nav_menu .pkp_navigation_primary.pkp_nav_list a:hover {
-    color: #ffff;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 0;
-    border-bottom-right-radius: 0;
-    transform: scale(1.05);
-    background-color: var(--btn-color-hover);
-    
-}
+
 
 
 /*dropdown-menu*/
@@ -964,6 +951,14 @@ body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
     width: 19%;
     border-radius: 3em;
     margin-right: 18em;
+}
+@media(max-width:914px) {
+    .pkp_page_issue .pkp_navigation_search_wrapper, .pkp_op_archive .pkp_navigation_search_wrapper, .pkp_page_about .pkp_navigation_search_wrapper, .pkp_page_login .pkp_navigation_search_wrapper, .pkp_page_search .pkp_navigation_search_wrapper, .pkp_op_register .pkp_navigation_search_wrapper, .pkp_page_special-issue-request .pkp_navigation_search_wrapper, .pkp_page_editorial-team .pkp_navigation_search_wrapper{
+        margin-top: 8em;
+    }
+    .pkp_page_issue .pkp_navigation_user.pkp_navigation_user, .pkp_op_archive .pkp_navigation_user.pkp_navigation_user, .pkp_page_about .pkp_navigation_user.pkp_navigation_user, .pkp_page_login .pkp_navigation_user.pkp_navigation_user, .pkp_page_search .pkp_navigation_user.pkp_navigation_user, .pkp_op_register .pkp_navigation_user.pkp_navigation_user, .pkp_page_special-issue-request .pkp_navigation_user.pkp_navigation_user, .pkp_page_editorial-team .pkp_navigation_user.pkp_navigation_user{
+        margin-top: 4em;
+    }
 }
 .pkp_navigation_search_wrapper a {
     color: #212529;
@@ -1037,6 +1032,7 @@ body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
 
 /*-- publish label --*/
 .obj_issue_toc .published {
+    box-shadow: 0 5px 15px rgb(1 1 1 / 35%);
     padding-left: 0;
     background: var(--card-published-bg);
     position: absolute;
@@ -1065,10 +1061,6 @@ body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
 @media(max-width:540px) {
     .obj_issue_toc .published {
         position: absolute;
-        border-top-right-radius: 1em;
-        border-top-left-radius: 1em;
-        border-top-right-radius: 0.2em;
-        border-top-left-radius: 0.2em;
         padding: 1em;
         font-size: 0.7em;
     }
@@ -1160,9 +1152,7 @@ body.pkp_page_index.pkp_op_index .pkp_head_wrapper {
     justify-content: center;
     flex-direction: row;
 }
-body.pkp_page_issue .obj_issue_toc .articles {
-    padding-right: 30em;
-}
+
 
 /*--other research paper card--*/
 .obj_issue_toc .articles>li{
@@ -1241,6 +1231,13 @@ body.pkp_page_issue .obj_issue_toc .articles {
         font-size: 1em;
         margin-top: 2em;
         left: 30%;
+    }
+    .obj_issue_toc .pub_id {
+        padding: 2em;
+        font-size: 0.9em;
+        line-height: 1.5em;
+
+
     }
 }
 .pkp_page_index .current_issue .read_more:hover {
