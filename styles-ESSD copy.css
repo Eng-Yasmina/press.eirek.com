@@ -1619,7 +1619,7 @@ justify-content: center;
     font-weight: 500;
     border-left: 3px solid #3a6cf4;
     padding-left: 0.5em;
-    margin-left: -0.5em;  
+ 
 }
 /**--------------------------------------------------------------------------------------------**/
 /*---------------------------------------------submission -------------------------------------*/
@@ -1633,7 +1633,7 @@ justify-content: center;
     font-weight: 500;
     border-left: 3px solid #3a6cf4;
     padding-left: 0.5em;
-    margin-left: -0.5em;
+   
 }
 .cmp_notification {
     background: var(--card-bg-color);
@@ -1716,7 +1716,7 @@ justify-content: center;
     font-weight: 500;
     border-left: 3px solid #3a6cf4;
     padding-left: 0.5em;
-    margin-left: -0.5em;
+  
 }
 
 /**--------------------------------------------------------------------------------------------**/
@@ -1913,13 +1913,16 @@ justify-content: center;
 /**--------------------------------------------------------------------------------------------**/
 /*------------------------------------------- ARCHIVES ----------------------------------------*/
 /**--------------------------------------------------------------------------------------------**/
+.page_issue_archive .issues_archive {
+    border-top: none;
+}
 .pkp_structure_main .page_issue_archive h1 {
     font-size: 2.3em;
     line-height: 1em;
     font-weight: 500;
     border-left: 3px solid #3a6cf4;
     padding-left: 0.5em;
-    margin-left: -0.5em;
+    
 }
 .pkp_structure_main .page_issue_archive .issues_archive>li{
     flex: 0 1 2em;
@@ -1953,6 +1956,37 @@ justify-content: center;
 .pkp_structure_main .page_issue_archive .issues_archive>li:hover {
     transform: scale(1.01);
     box-shadow: 0 5px 15px rgba(1 1 1 /40%);
+}
+
+.pkp_structure_main .page_issue_archive .issues_archive .obj_issue_summary .description>ul li {
+    list-style: disc;
+    margin: 0.5em 1.5em;
+}
+.pkp_structure_main .page_issue_archive .issues_archive .obj_issue_summary .description ul ul li, .pkp_structure_main .page_issue_archive .issues_archive .obj_issue_summary .description ol li {
+    border-left: 2px solid #3a6cf4;
+    margin: 0.5em;
+    padding-left: 0.5em;
+    list-style: none;
+}
+.pkp_structure_main .page_issue_archive .issues_archive>li:nth-child(odd) .obj_issue_summary .description ul ul li, .pkp_structure_main .page_issue_archive .issues_archive>li:nth-child(odd) .obj_issue_summary .description ol li {
+    border-left: 2px solid #f0f0f0;
+}
+@media(max-width:540px) {
+    .pkp_structure_main .page_issue_archive .issues_archive>li{
+        padding: 15px;
+        margin: 0 0 15px 0;
+    }
+    .pkp_structure_main .page_issue_archive .issues_archive .obj_issue_summary .description>ul li {
+        margin: 0.2em 0 0 1em;
+    }
+    .pkp_structure_main .page_issue_archive .issues_archive .obj_issue_summary .description ul ul li, .pkp_structure_main .page_issue_archive .issues_archive .obj_issue_summary .description ol li {
+        border-left: 1px solid #3a6cf4;
+        margin: 0.4em 0;
+    }
+    .pkp_structure_main .page_issue_archive .issues_archive>li:nth-child(odd) .obj_issue_summary .description ul ul li, .pkp_structure_main .page_issue_archive .issues_archive>li:nth-child(odd) .obj_issue_summary .description ol li {
+        border-left: 1px solid #f0f0f0;
+    }
+
 }
 
 /**--------------------------------------------------------------------------------------------**/
