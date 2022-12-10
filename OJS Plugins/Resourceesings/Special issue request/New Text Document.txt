@@ -1,0 +1,56 @@
+<div class="main">
+<div id="app-input-data" class="app-input-data"><form action="https://formspree.io/f/mwkzyzoq" method="post">
+<h2 class="main-intro">Guest Editor Details</h2>
+<div class="section-form-container">
+<div>
+<h3>Guest Editor 1</h3>
+<div class="special-issues-form">
+<div class="form"><input id="name" class="input__Guest1 input__Guest1__name" name="name" type="text" placeholder=" " /> <label class="label__Guest1 label__Guest1__name"> <span class="content__Guest1 content__Guest1__name">Name</span> </label></div>
+<div class="form"><input id="affiliation" class="input__Guest1 input__Guest1__affiliation" name="affiliation" type="text" placeholder=" " /> <label class="label__Guest1 label__Guest1__affiliation"> <span class="content__Guest1 content__Guest1__affiliation">Affiliation</span> </label></div>
+<div class="form"><input id="phone" class="input__Guest1 input__Guest1__phone" name="phone" type="text" placeholder=" " /> <label class="label__Guest1 label__Guest1__phone"> <span class="content__Guest1 content__Guest1__phone">Phone</span> </label></div>
+<div class="form"><input id="email" class="input__Guest1 input__Guest1__email" name="mail" type="text" placeholder=" " /> <label class="label__Guest1 label__Guest1__email"> <span class="content__Guest1 content__Guest1__email">Email</span> </label></div>
+</div>
+</div>
+<div>
+<h3>Guest Editor 2</h3>
+<div class="special-issues-form">
+<div class="form"><input id="name" class="input__Guest2 input__Guest2__name" name="name" type="text" placeholder=" " /> <label class="label__Guest2 label__Guest2__name"> <span class="content__Guest2 content__Guest2__name">Name</span> </label></div>
+<div class="form"><input id="affiliation" class="input__Guest2 input__Guest2__affiliation" name="affiliation" type="text" placeholder=" " /> <label class="label__Guest2 label__Guest2__affiliation"> <span class="content__Guest2 content__Guest2__affiliation">Affiliation</span> </label></div>
+<div class="form"><input id="phone" class="input__Guest2 input__Guest2__phone" name="phone" type="text" placeholder=" " /> <label class="label__Guest2 label__Guest2__phone"> <span class="content__Guest2 content__Guest2__phone">Phone</span> </label></div>
+<div class="form"><input id="email" class="input__Guest1 input__Guest1__email" name="mail" type="text" placeholder=" " /> <label class="label__Guest1 label__Guest1__email"> <span class="content__Guest1 content__Guest1__email">Email</span> </label></div>
+</div>
+</div>
+<div>
+<h3>Guest Editor 3</h3>
+<div class="special-issues-form">
+<div class="form"><input id="name" class="input__Guest3 input__Guest3__name" name="name" type="text" placeholder=" " /> <label class="label__Guest3 label__Guest3__name"> <span class="content__Guest3 content__Guest3__name">Name</span> </label></div>
+<div class="form"><input id="affiliation" class="input__Guest3 input__Guest3__affiliation" name="affiliation" type="text" placeholder=" " /> <label class="label__Guest3 label__Guest3__affiliation"> <span class="content__Guest3 content__Guest3__affiliation">Affiliation</span> </label></div>
+<div class="form"><input id="phone" class="input__Guest3 input__Guest3__phone" name="phone" type="text" placeholder=" " /> <label class="label__Guest3 label__Guest3__phone"> <span class="content__Guest3 content__Guest3__phone">Phone</span> </label></div>
+<div class="form"><input id="email" class="input__Guest3 input__Guest3__email" name="mail" type="text" placeholder=" " /> <label class="label__Guest3 labe3__Guest3__email"> <span class="content__Guest3 content__Guest3__email">Email</span> </label></div>
+</div>
+</div>
+<div>
+<h2 class="main-intro">Special Issue Details</h2>
+<div class="special-issues-form">
+<div class="form"><input id="special__issue__title" class="input__special__issue__titlel" name="special__issue__title" type="text" placeholder=" " /> <label class="label__special__issue__title"> <span class="content__special__issue__title">Special Issue Title :</span> </label></div>
+<div class="text__form"><textarea id="textarea__submit__special__issue" class="textarea__submit__special__issue box" cols="20" name="textarea__submit__special__issue" rows="3" placeholder="Relevant proof that the issue will be later used and cited (example: citations track, past publications, etc.)"></textarea> <label class="label__submit__special__issue"> </label></div>
+<div class="text__form"><textarea id="textarea__submit__special__issue" class="textarea__submit__special__issue box" cols="20" name="textarea__submit__special__issue" rows="3" placeholder="Innovation (What will this issue add to the scientific academic field?)"></textarea> <label class="label__submit__special__issue"> </label></div>
+<div class="text__form"><textarea id="textarea__submit__special__issue" class="textarea__submit__special__issue box" cols="20" name="textarea__submit__special__issue" rows="3" placeholder="Objectives: what are the main objectives of this issue? How will they be achieved?)"></textarea> <label class="label__submit__special__issue"> </label></div>
+<div class="text__form"><textarea id="textarea__submit__special__issue" class="textarea__submit__special__issue box" cols="20" name="textarea__submit__special__issue" rows="3" placeholder="Please provide a list of the projected themes of this issue"></textarea> <label class="label__submit__special__issue"> </label></div>
+<div class="form"><input id="special__issue__title" class="input__special__issue__titlel" name="special__issue__title" type="text" placeholder=" " /> <label class="label__special__issue__title"> <span class="input__submit__special__issue">Author Submission Deadline</span> </label></div>
+</div>
+</div>
+<div>
+<h2 class="main-intro">Marketing Details</h2>
+<div class="special-issues-form">
+<div class="form"><input id="special__issue__title" class="input__special__issue__titlel" name="special__issue__title" type="text" placeholder=" " /> <label class="label__special__issue__title"> <span class="input__submit__special__issue">Suggest the most relevant organizations that would be suitable for marketing purposes.</span> </label></div>
+<h2 class="main-intro">Applicant Contact Details</h2>
+<div class="form"><input id="name" class="input__special__issues__title input__special__issues__title__name" name="name" type="text" placeholder=" " /> <label class="label__special__issues__title label__special__issues__title__name"> <span class="content__special__issues__title content__special__issues__title__name">Name</span> </label></div>
+<div class="form"><input id="name" class="input__special__issues__title input__special__issues__title__affiliation" name="name" type="text" placeholder=" " /> <label class="label__special__issues__title label__special__issues__title__affiliation"> <span class="content__special__issues__title content__special__issues__title__affiliation">Affiliation</span> </label></div>
+<div class="form"><input id="name" class="input__special__issues__title input__special__issues__title__phone" name="name" type="text" placeholder=" " /> <label class="label__special__issues__title label__special__issues__title__phone"> <span class="content__special__issues__title content__special__issues__title__phone">Phone</span> </label></div>
+<div class="form"><input id="name" class="input__special__issues__title input__special__issues__title__email" name="mail" type="text" placeholder=" " /> <label class="label__special__issues__title label__special__issues__title__email"> <span class="content__special__issues__title content__special__issues__title__email">Email</span> </label></div>
+</div>
+</div>
+<button id="generate" type="submit">Submit </button></div>
+</form></div>
+</div>

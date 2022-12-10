@@ -1,0 +1,38 @@
+- initiate  a new page in OJS  for the user to be refered to when requests a special issue   (HTML/ CSS)
+- build a new form and implement it in the new OJS page for special issue request submission  (HTML/Javascript/Node.js)
+- add new nav bar and adjustment additional buttons in OJS  (HTML/Javascript)
+- implement new sections in OJS   (HTML/CSS)
+- provide a backup of the original OJS's CSS file (JSON/CSS)
+- User interface(UI): polished and professional look and feel.
+- Convert the approved design mockup into coding for each of the header, footer, and sections: Current, Archives, Contact, Submissions, Privacy Statement, and Search.        (CSS)
+- UI design is usable by implementing appropriate colored frames 
+for buttons: login, register, view journal, and search bar.      (CSS)
+- UI design is equitable by implementing translation features in 
+the navigation bar to be easy for the user to select.    (CSS)
+- Animation effects to the website elements for the user when 
+hovering over them.     (CSS)
+- Responsive layout across all devices, such as modern 
+desktops, tablets, and phone browsers.   (CSS)
+
+
+#1E6292
+https://press.ierek.com/index.php/ARChive/ARChive-special-issue-request
+https://press.ierek.com/index.php/ESSD/special-issue-request
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

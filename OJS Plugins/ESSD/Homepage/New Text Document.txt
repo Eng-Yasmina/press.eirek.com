@@ -1,0 +1,119 @@
+<div class="pkp_page_index pkp_op_index has_site_logo" dir="ltr">
+<div class="pkp_structure_page"><header id="headerNavigationContainer" class="pkp_structure_head" role="banner"><nav class="cmp_skip_to_content" aria-label="Jump to content links"><a href="#pkp_content_main">Skip to main content</a> <a href="#siteNav">Skip to main navigation menu</a> <a href="#pkp_content_footer">Skip to site footer</a></nav><!------------------- Header---------------------->
+<div class="pkp_head_wrapper">
+<div class="pkp_site_name_wrapper"><!-------------- Logo----------->
+<div class="pkp_site_name"><a class="is_img" href="https://press.ierek.com/index.php/ESSD/Home"> <img src="https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/pageHeaderTitleImage_en_US.png" width="1357" height="305" /> </a></div>
+</div>
+<!------------------- Login & Resister----------------------></div>
+<!-- .pkp_head_wrapper --></header><!-- .pkp_structure_head -->
+<div class="pkp_structure_content has_sidebar">
+<div class="pkp_structure_main" role="main"><a id="pkp_content_main"></a>
+<div class="page_index_site">
+<div class="journals">
+<h2>Journals</h2>
+<ul><!------------------------Card 1------------------------------->
+<li id="ESSDCard" class="has_thumb">
+<div class="thumb"><a href="https://press.ierek.com/index.php/ESSD"> <img src="https://press.ierek.com/public/journals/1/journalThumbnail_en_US.png" /> </a></div>
+<div class="body">
+<h3><a href="https://press.ierek.com/index.php/ESSD" rel="bookmark">International Journal of Environmental Science &amp; Sustainable Development</a></h3>
+<div class="description">
+<p>Environmental Sciences and Sustainable Development (ESSD) is a peer-reviewed, scholarly journal that aims to systematically develop the minds of aspiring scholars that seek to contribute to the academic community. We are currently living in an age of information where sources are widely available on the Internet. However, we at ESSD seek to efficiently utilize the available information to help create an age of knowledge. The journal's focus is academic research in all fields of Environmental Sciences and Sustainable Development.</p>
+<p><a href="https://publicationethics.org/members/environmental-science-and-sustainable-development" target="_blank" rel="noopener"><strong>COPE Membership:</strong></a></p>
+<p>As a member of <a href="https://publicationethics.org/" target="_blank" rel="noopener">COPE</a>, Environmental Sciences and Sustainable Development (ESSD) abides by COPE's policies and journals practices to reach the highest standards in publication ethics.</p>
+</div>
+<ul class="links">
+<li class="view"><a href="https://press.ierek.com/index.php/ESSD">View Journal</a></li>
+<li class="current"><a href="https://press.ierek.com/index.php/ESSD/issue/current">Current Issue</a></li>
+</ul>
+</div>
+</li>
+<!------------------------Card 2------------------------------->
+<li id="ARChiveCard" class="has_thumb">
+<div class="thumb"><a href="https://press.ierek.com/index.php/ARChive"> <img src="https://press.ierek.com/public/journals/2/journalThumbnail_en_US.png" /> </a></div>
+<div class="body">
+<h3><a href="https://press.ierek.com/index.php/ARChive" rel="bookmark">The Academic Research Community publication</a></h3>
+<div class="description">Archive Proceedings of Academic Research Community (ARChive) is a journal published on behalf of researchers that perpetually make an effort to contribute to their fields. It serves to cultivate, propagate, and essentially archive academic research that has been authored and submitted for an academic conference</div>
+<ul class="links">
+<li class="view"><a href="https://press.ierek.com/index.php/ARChive">View Journal</a></li>
+<li class="current"><a href="https://press.ierek.com/index.php/ARChive/issue/current">Current Issue</a></li>
+</ul>
+</div>
+</li>
+<!------------------------Card 3------------------------------->
+<li id="ResourceedingCard" class="has_thumb">
+<div class="thumb"><a href="https://press.ierek.com/index.php/Resourceedings"> <img src="https://press.ierek.com/public/journals/3/journalThumbnail_en_US.png" /> </a></div>
+<div class="body">
+<h3><a href="https://press.ierek.com/index.php/Resourceedings" rel="bookmark"> Resourceedings </a></h3>
+<div class="description"><strong>Resourceedings</strong> is a journal that withholds a number of quality conference proceedings in the overarching field of Engineering and its derivatives in collaboration with none other than the esteemed journal.</div>
+<ul class="links">
+<li class="view"><a href="https://press.ierek.com/index.php/Resourceedings">View Journal</a></li>
+<li class="current"><a href="https://press.ierek.com/index.php/Resourceedings/issue/current">Current Issue</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- .page --></div>
+<!-- pkp_structure_main --> <!------------sidebar.left-----------> <!-- Block_jump_to_content -->
+<div class="nav__linked__main"><a class="link_to_essd" href="#ESSDCard" data-navigation="International Journal of Environmental Science &amp; Sustainable Development">ESSD</a> <a class="link_to_archive" href="#ARChiveCard" data-navigation="The Academic Research Community publication">ARChive</a> <a class="link_to_resourceeding" href="#ResourceedingCard" data-navigation="Resourceedings">Resourceeding</a></div>
+<!-- pkp_sidebar.left --></div>
+<!-- pkp_structure_content --> <!------------------MEET OUR TEAM------->
+<section id="Team" class="grid team" data-navigation="Team"><!-- TODO: build the container which all instructors photos will pop-up from -->
+<div class="instructors"><a id="instructor-1" class="instructor" href="https://press.ierek.com/index.php/ESSD/editorial-team" target="_blank" rel="noopener"><img src="https://i1.rgstatic.net/ii/profile.image/514797244747776-1499748635961_Q512/Hasim-Altan.jpg" alt="Professor Hasim Altan" /></a>
+<div class="editor-pup-up-3">
+<h4>Professor Hasim Altan</h4>
+<h3>Editor</h3>
+</div>
+<a id="instructor-5" class="instructor" href="https://press.ierek.com/index.php/ESSD/editorial-team" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/1512186540973252615/Ix3I3qcp_400x400.jpg" alt="Dr. Chaham Alaloush" /></a>
+<div class="editor-pup-up-5">
+<h4>Dr. Chaham Alaloush</h4>
+<h3>Editor</h3>
+</div>
+<a id="instructor-6" class="instructor" href="https://press.ierek.com/index.php/ESSD/editorial-team" target="_blank" rel="noopener"><img src="https://media-exp1.licdn.com/dms/image/C5603AQG2Zw5cjsOU9w/profile-displayphoto-shrink_200_200/0/1517531740869?e=1674691200&amp;v=beta&amp;t=kh-DHD0msffIiU4UYN1iuDBGEFWB75Tgd0YCd7XAxnA" alt="Professor Cristina Piselli" /></a>
+<div class="editor-pup-up-6">
+<h4>Professor Cristina Piselli</h4>
+<h3>Editor</h3>
+</div>
+<a id="instructor-2" class="instructor" href="https://press.ierek.com/index.php/ESSD/editorial-team" target="_blank" rel="noopener"><img src="https://i1.rgstatic.net/ii/profile.image/788760971206657-1565066678170_Q512/Fabio-Naselli.jpg" alt="Fabio-Naselli" /></a>
+<div class="editor-pup-up-4">
+<h4>Dr. Fabio Naselli</h4>
+<h3>Editor</h3>
+</div>
+<a id="instructor-3" class="instructor" href="https://press.ierek.com/index.php/ESSD/editorial-team" target="_blank" rel="noopener"><img src="https://press.ierek.com/public/site/profileImage-1.png" alt="Dr. Hocine Bougdah" /></a>
+<div class="editor-pup-up-1">
+<h4>Professor Hocine Bougdah</h4>
+<h3>Editor in Chief</h3>
+</div>
+<a id="instructor-4" class="instructor" href="https://press.ierek.com/index.php/ESSD/editorial-team" target="_blank" rel="noopener"><img src="https://media-exp1.licdn.com/dms/image/C4D03AQG26Afb7rmVcg/profile-displayphoto-shrink_100_100/0/1622028340575?e=1674691200&amp;v=beta&amp;t=-_Y_Oj1BaEL3jQbecsUJCU_Qk5BiimUMITuRpsHpdvU" alt="Dr.Morad Amir" /></a>
+<div class="editor-pup-up-2">
+<h4>Doctor Mourad Amer</h4>
+<h3>Managing Editor</h3>
+</div>
+</div>
+<!-- I build the title of the section at the end to consider the order of elements in the grid -->
+<h1 id="team_title" class="team__title"><span class="team__bold-title"> Meet </span>our<br />Editorial Team</h1>
+</section>
+<!--------------------indexing-services----------------------->
+<div id="IndexingServices" class="indexing-services">
+<h1 class="indexing-services__title">Indexing Services</h1>
+<div class="indexing-services__content">
+<div class="indexing-services__card"><a href="https://doaj.org/toc/2357-0857?source=%7B%22query%22%3A%7B%22bool%22%3A%7B%22must%22%3A%5B%7B%22terms%22%3A%7B%22index.issn.exact%22%3A%5B%222357-0849%22%2C%222357-0857%22%5D%7D%7D%5D%7D%7D%2C%22size%22%3A100%2C%22sort%22%3A%5B%7B%22created_date%22%3A%7B%22order%22%3A%22desc%22%7D%7D%5D%2C%22_source%22%3A%7B%7D%2C%22track_total_hits%22%3Atrue%7D" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220822111451im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/DOAJ.png" alt="" /></a></div>
+<div class="indexing-services__card"><a href="https://europub.co.uk/journals/environmental-science-and-sustainable-development-J-29473"><img src="https://web.archive.org/web/20220822111452im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/EuroPub.jpg" alt="" /></a></div>
+<div class="indexing-services__card"><a href="https://www.worldcat.org/" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220829230053im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/2-WorldCat_Logo.jpg" alt="" /></a></div>
+<div class="indexing-services__card"><a href="https://search.ebscohost.com/" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220829230052im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/ebsco.png" alt="" /></a></div>
+<div class="indexing-services__card"><a href="https://jgateplus.com/search/login/" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220822111420im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/5-j-gate-newlogo.jpg" alt="" /></a></div>
+<div class="indexing-services__card"><a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220829230052im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/Google.png" alt="" /></a></div>
+<div class="indexing-services__card"><a href="https://www.semanticscholar.org/" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220829230053im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/Semantic.png" alt="" /></a></div>
+<div class="indexing-services__card"><a href="https://isindexing.com/isi/viewjournal.php" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220829230052im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/1-international.jpg" alt="" /></a></div>
+<div class="indexing-services__card"><a href="http://sindexs.org/JournalList.aspx?ID=3674" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220822111418im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/6-Sis-Logo.jpg" alt="" /></a></div>
+<div class="indexing-services__card"><a href="http://www.cosmosimpactfactor.com/page/journals_details/2569.html" target="_blank" rel="noopener noreferrer"><img src="https://web.archive.org/web/20220822111419im_/https://press.ierek.com/plugins/themes/responsiveTheme/templates/images/journal/indexinglogos/9-cosmos_logo_big.jpg" alt="" /></a></div>
+    <div class="indexing-services__card"><a href="https://www.orcid.org/" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/assets/vectors/orcid.logo.svg" alt="" /></a></div>
+    <div class="indexing-services__card"><a href="https://www.kns.cnki.net/kns8/" target="_blank" rel="noopener noreferrer"><img src="https://piccache.cnki.net/2022/kdn/kns8/content/images/gb/logo.png" alt="" /></a></div>
+    <div class="indexing-services__card"><a href="https://www.scienceopen.com/collection/331cfcac-c491-4bf2-8859-0b3159ae4577" target="_blank" rel="noopener noreferrer"><img src="https://blog.scienceopen.com/wp-content/uploads/2018/07/ScienceOpen_Logo-300x73.png" alt="" /></a></div>
+    <div class="indexing-services__card"><a href="https://www.zenodo.org/communities/ierekpress/?page=1&size=20" target="_blank" rel="noopener noreferrer"><img src="https://about.zenodo.org/static/img/logos/zenodo-black-2500.png" width="15%" alt=""/></a></div>
+</div>
+</div>
+<!------------------------------------------></div>
+<!--------------------footer--------------------------------> <!-- pkp_structure_footer_wrapper --></div>
+<!-- pkp_structure_page -->
