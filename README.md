@@ -1,4 +1,4 @@
-# OJS Themes, OJS Plugin And OJS Services
+# OJS Themes, OJS Plugins And OJS Services
 I provide various Open Journal Systems (OJS) themes and services with each of my themes has unique and exciting features such as upcoming issue & previous issue, JATS file integration, editorial section design, menu with icon, interconnected article metadata, and others. I also provide a free OJS theme to help you start the journal publication.
 
 
