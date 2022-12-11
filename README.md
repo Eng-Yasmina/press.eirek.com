@@ -4,7 +4,6 @@ I provide various Open Journal Systems (OJS) themes and services with each of my
 
 I focused to provide more affordable and high quality OJS themes and services that can help you to improve your journal. Not just i'm concerned about the detailed element of the design, I also complete my theme with many essential and must-have features. 
 # Demo Preview
-![ierek-press-theme.png](https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/Screenshot%202022-12-11%20IEREK%20Press.png)
 ![ierek-press-theme-fuul-page.png](https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/screencapture-eng-yasmina-github-io-press-eirek-com-index-html-2022-12-11-14_00_06.png)
 ![ierek-press-theme-essd.png](https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/screenshot-eng-yasmina.github.io-2022.12.11-13_52_06.png)
 ![ierek-press-theme-archive.png](https://raw.githubusercontent.com/Eng-Yasmina/press.eirek.com/main/images/screenshot-eng-yasmina.github.io-2022.12.11-13_54_40.png)
